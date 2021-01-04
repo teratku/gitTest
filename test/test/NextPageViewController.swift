@@ -9,6 +9,7 @@ import UIKit
 
 class NextPageViewController: UIViewController {
     @IBOutlet weak var returnText: UILabel!
+    @IBOutlet weak var returnButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -62,6 +62,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
+                        <outlet property="returnButton" destination="cra-bq-dD8" id="odz-5M-gUU"/>
                         <outlet property="returnText" destination="ChN-8d-6dG" id="G7R-M7-ItB"/>
                     </connections>
                 </viewController>
