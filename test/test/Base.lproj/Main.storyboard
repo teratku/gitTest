@@ -34,6 +34,7 @@
                     </view>
                     <connections>
                         <outlet property="textActionButton" destination="eib-gz-8sp" id="M4Q-Ie-i0w"/>
+                        <outlet property="textLabel" destination="Sbg-zQ-KQT" id="yvI-JU-ZNe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
