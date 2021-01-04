@@ -8,7 +8,8 @@
 import UIKit
 
 class NextPageViewController: UIViewController {
-
+    @IBOutlet weak var returnText: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
