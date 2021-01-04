@@ -38,6 +38,7 @@
                     <connections>
                         <outlet property="textActionButton" destination="eib-gz-8sp" id="M4Q-Ie-i0w"/>
                         <outlet property="textLabel" destination="Sbg-zQ-KQT" id="yvI-JU-ZNe"/>
+                        <segue destination="YVd-3c-gPg" kind="modal" identifier="modalNextPage" id="zep-5q-9K9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -49,7 +50,7 @@
             <objects>
                 <viewController storyboardIdentifier="nextPage" id="YVd-3c-gPg" customClass="NextPageViewController" customModule="test" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EVC-ID-7t1">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Return" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ChN-8d-6dG">
