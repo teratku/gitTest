@@ -18,6 +18,7 @@ class ViewController: UIViewController {
         
     }
     @IBAction func actionButton(_ sender: Any) {
+        textLabel.text = "OK"
     }
     
 
