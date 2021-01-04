@@ -19,6 +19,9 @@ class ViewController: UIViewController {
     }
     @IBAction func actionButton(_ sender: Any) {
         textLabel.text = "OK"
+        let storyboard: UIStoryboard = UIStoryboard(name: "nextPage", bundle: nil)
+        let modalView = storyboard.instantiateViewController(withIdentifier: "NextPage") as! UIViewController
+        self.present(modalView, animated: true, completion: nil)
     }
     
 
