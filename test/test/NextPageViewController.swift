@@ -16,6 +16,8 @@ class NextPageViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+    @IBAction func returnAction(_ sender: Any) {
+    }
     
 
     /*
