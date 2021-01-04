@@ -47,7 +47,7 @@
         <!--Next Page View Controller-->
         <scene sceneID="eVp-XG-tlP">
             <objects>
-                <viewController id="YVd-3c-gPg" customClass="NextPageViewController" customModule="test" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="nextPage" id="YVd-3c-gPg" customClass="NextPageViewController" customModule="test" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EVC-ID-7t1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
